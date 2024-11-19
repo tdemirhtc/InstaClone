@@ -9,13 +9,13 @@ import SwiftUI
 import Firebase
 import PhotosUI
 struct UploadView: View {
+    
     @State private var comments = ""
     @State private var selectedItem : PhotosPickerItem?
     @State private var data : Data?
     @State private var alertTitle = ""
     @State private var alertMessage = ""
     @State private var showAlert = false
-    
     
     var body: some View {
         VStack{
@@ -121,4 +121,5 @@ struct UploadView: View {
 #Preview {
     UploadView()
 }
+
 

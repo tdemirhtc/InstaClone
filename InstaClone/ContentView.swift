@@ -9,7 +9,6 @@ import SwiftUI
 import Firebase
 import FirebaseFirestore
 
-
 struct ContentView: View {
     @State private var email = ""
     @State private var password = ""
@@ -108,3 +107,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+

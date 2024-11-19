@@ -10,9 +10,6 @@ import SwiftUI
 import FirebaseStorage
 import SDWebImageSwiftUI
 import Firebase
-
-
-
 struct FeedView: View {
     @StateObject private var postModel = PostModel()
     
@@ -78,4 +75,5 @@ struct FeedView: View {
 #Preview {
     FeedView()
 }
+
 

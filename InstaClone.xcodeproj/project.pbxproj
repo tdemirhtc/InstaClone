@@ -142,14 +142,14 @@
 		65B4D0D52CEB83370040A5AA /* InstaClone */ = {
 			isa = PBXGroup;
 			children = (
+				65B4D0DA2CEB83380040A5AA /* Assets.xcassets */,
 				65B4D0D62CEB83370040A5AA /* InstaCloneApp.swift */,
 				65B4D0D82CEB83370040A5AA /* ContentView.swift */,
-				65B4D0DA2CEB83380040A5AA /* Assets.xcassets */,
-				65B4D0DC2CEB83380040A5AA /* Preview Content */,
 				65B4D1002CEBB1720040A5AA /* FeedView.swift */,
-				65B4D1022CEBB17F0040A5AA /* UploadView.swift */,
-				65B4D1042CEBB18D0040A5AA /* SettingsView.swift */,
 				6532DE2C2CECD38B00EF671D /* PostModel.swift */,
+				65B4D1042CEBB18D0040A5AA /* SettingsView.swift */,
+				65B4D1022CEBB17F0040A5AA /* UploadView.swift */,
+				65B4D0DC2CEB83380040A5AA /* Preview Content */,
 			);
 			path = InstaClone;
 			sourceTree = "<group>";

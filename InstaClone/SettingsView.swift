@@ -7,8 +7,8 @@
 
 import SwiftUI
 import Firebase
+
 struct SettingsView: View {
-    
     
     var body: some View {
         
@@ -43,4 +43,5 @@ struct SettingsView: View {
 #Preview {
     SettingsView()
 }
+
 

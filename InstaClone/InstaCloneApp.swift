@@ -21,7 +21,6 @@ struct InstaCloneApp: App {
                 ContentView()
             }
          
-           
         }
     }
 }
@@ -44,3 +43,4 @@ struct MainTabView: View {
         }
     }
 }
+

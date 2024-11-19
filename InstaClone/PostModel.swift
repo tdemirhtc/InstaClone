@@ -9,15 +9,13 @@ import Foundation
 import Firebase
 import SwiftUI
 
-
 struct Post: Identifiable {
     var id: String
     var email: String
     var comment: String
     var imageURL: String
     var likes: Int
-    
-   
+
 }
 
 class PostModel: ObservableObject {
@@ -69,4 +67,5 @@ class PostModel: ObservableObject {
     
         }
     
+
 
